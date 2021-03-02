@@ -1,0 +1,89 @@
+
+
+    
+    .Endo img
+    {
+        box-shadow: 10px 10px 50px #ccc;
+        padding: 0.9em  0.9em 0.9em 0.9em;
+        margin:0.9em  0.9em 0.9em 0.9em;
+        border-radius:2em;
+        box-sizing: border-box;
+        text-decoration:none;
+    height: 250px;
+    width:250px;
+    }
+    
+    
+    
+    
+
+
+    
+    
+   
+    
+    
+
+
+    
+
+
+@media(max-width:615px){
+    .Endo  img :hover {
+        cursor: pointer;
+        background-color:#fff;
+        color: black;
+        text-align: center;
+        padding: 30px 20px;
+        transition: all 0.6s;
+        box-shadow: 0px 0px 15px #cdcdcd;
+    }
+    .Endo div {
+        border: 1.3px solid rgb(200,200,200);
+        border-top: 6px solid rgb(138,198,76);
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        height:40%;
+        width:30%;
+    }
+    
+    .Endo h1
+    {
+        font-weight: 700;
+        font-size: 15px;
+        display:block;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding-top:15px;
+        margin-left:130px;
+    }
+    .Endo h2
+    {
+        padding-left:5px;
+        font-size:15px;
+    }
+    .Endo p
+    {
+    padding-left:25px;
+    font-size: 20px;
+    }
+    .Endo button
+    {
+        background:  rgb(138,198,76);
+        border: 2px solid  rgb(138,198,76);
+        border-radius: 1px;
+        color: white;
+        font-weight: bold;
+        box-shadow: 1px 1px 3px grey;
+        width: 100px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    .Endo img
+    {
+ margin-left:30px  ;
+    height: 60%;
+    width:50%;
+    }
+}

@@ -1,0 +1,29 @@
+.Credits{
+margin-top: 0px;
+    display:flex;
+    background-color: rgb(46,46,46);
+    width:100%;
+    height:250px;
+align-items: right;
+}
+.Credits img {
+    background-color: rgb(46,46,46);
+    height: 250px;
+    width:350px;
+}
+.Credits div {
+    display: flex;
+margin-left: 250px;
+}
+.Credits  p{
+    font-size: 21px;
+    font-weight: 200;
+    margin-left:50px;
+    margin-top: 100px;
+color:white;
+}
+.Credits div span1{
+margin-right: 350px;
+    width: 30px;
+    height: 200px;
+}

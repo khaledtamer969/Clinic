@@ -1,0 +1,50 @@
+.Team div3
+{
+    background-color: rgb(235,248,255);
+  display:flex;
+  text-align: justify;
+}
+.Team section{
+    margin:0;
+}
+.Team div1 img{
+    border-radius: 50%;
+}
+.Team div2 img{
+    border-radius: 50%;
+}
+.Team div{
+   margin-top: 100px;
+    margin-left: 130px;
+    width:40%;
+}
+.Team div p{
+    color: green;
+    margin:1px;
+ }
+ .Team div h2{
+     margin-top:5px;
+     margin-bottom: 5px;
+font-size: 45px;
+font-weight: 600;
+ }
+ .Team div p1{
+    margin-top:5px;
+    margin-bottom: 5px;
+font-size: 20px;
+font-weight: 500;
+text-align: justify;
+}
+.Team div1 img{
+height: 200px;
+width:200px;
+margin-top: 200px;
+margin-left: 190px;
+}
+.Team div2 img{
+    height: 300px;
+    width:300px;
+    margin-top: 20px;
+    
+
+    }

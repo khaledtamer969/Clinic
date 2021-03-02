@@ -1,0 +1,61 @@
+.Intro{
+
+    width:100%;
+    display:flex;
+    position: relative;
+    background-color:rgb(234, 254,245);
+}
+.Intro a{
+    text-decoration: none;
+    display: flex;
+}
+.Intro img {
+    margin-top: 50px;
+    margin-right:90px;
+    height:700px;
+    width:700px;
+    box-shadow: 10px 10px 50px #ccc;
+    padding: 0.9em  0.9em 0.9em 0.9em;
+    margin:0.9em  0.9em 0.9em 0.9em;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+
+}
+.Intro span  {
+    display: flex;
+
+}
+.Intro span  p1{
+color: lightseagreen;
+    margin-top: 20px;
+}
+.Intro span  img{
+height:40px;
+width:40px;
+}
+.Intro div1{
+   text-align:left;
+margin-top: 340px;
+margin-right:20px ;
+margin-left:100px ;
+}
+.Intro div1 h2{
+font-size: 45px;
+font-weight: 600;
+margin:2px;
+
+}
+.Intro div1 h1{
+    font-size: 45px;
+    font-weight: 600;
+    margin:1px;
+    
+    
+    }
+    .Intro div1 p{
+        font-size: 20px;
+        font-weight: 300;
+        margin-top:1px;
+        
+        }

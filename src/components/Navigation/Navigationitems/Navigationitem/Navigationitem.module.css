@@ -1,0 +1,28 @@
+.Navigationitem{
+
+    margin: 10px 0;
+    box-sizing:border-box;
+    display:block;
+    width:100%; 
+    margin-top: 20px;
+    align-items:center;
+}
+
+.Navigationitem a{
+    
+margin: 5px;
+text-align: center;
+    text-decoration: none;
+    width:100%;
+    box-sizing: border-box;
+    display: block;
+
+}
+.Navigationitem a:hover,
+.Navigationitem a:active,
+.Navigationitem a.active{
+border-bottom-style:  solid;
+    border-bottom-color: rgb(25,218,157);
+    cursor: pointer;
+    text-align: center;
+}

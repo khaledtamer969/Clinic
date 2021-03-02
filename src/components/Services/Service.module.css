@@ -1,0 +1,14 @@
+
+
+.Service  h1{
+    color: green;
+    text-align: center;
+}
+.Service button
+{
+    background-color: white;
+    color:rgb(25,218,157);
+}
+.Service ul{
+    display: flex;
+}
