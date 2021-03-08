@@ -13,12 +13,12 @@ const location =() =>
     <h2>Located at the heart of 6th of October</h2>
 <p1>Driven by a team of passionate,
     young,devoted healthcare
-     experts. Our mission is to provied
+     experts. Our mission is to provide
       luxurious ,world-class treatments
        at attainable prices.
-        As members od the Royal 
-        College of Surgeons in London,we 
-        specializa in Esthetic and Restorative dentistry.
+        As members of the Royal 
+        College of Surgeons in London and International Digital Dental Academy in UK.We 
+        specialize in Esthetic and Restorative dentistry.
 </p1>
 <p2>You can find us at <span>11th 
     Clinic on the first floor of the 

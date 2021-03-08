@@ -11,9 +11,9 @@
 }
 .Intro img {
     margin-top: 50px;
-    margin-right:90px;
+    margin-right:150px;
     height:700px;
-    width:700px;
+    width:600px;
     box-shadow: 10px 10px 50px #ccc;
     padding: 0.9em  0.9em 0.9em 0.9em;
     margin:0.9em  0.9em 0.9em 0.9em;
@@ -57,5 +57,5 @@ margin:2px;
         font-size: 20px;
         font-weight: 300;
         margin-top:1px;
-        
+        margin-right: 250px;
         }

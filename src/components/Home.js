@@ -7,7 +7,8 @@ import Team from './Team/Team';
 import Contact from './Contact/Contact';
 import Credits from './Team/Credits/Credits';
 import Services from './Services/Service';
-
+import Vision from './Vision/Vision';
+import Quality from './QualityControl/QualityControl';
 
 
 const Home =()=> {
@@ -26,6 +27,8 @@ const Home =()=> {
         <Location/>
         <Team/>
         <Credits/>
+        <Vision/>
+        <Quality/>
         <Services/>
         <Review/>
         <Contact/>

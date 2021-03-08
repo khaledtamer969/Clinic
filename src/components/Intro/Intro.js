@@ -9,7 +9,7 @@ return(
 <section className={classes.Intro}>
 <div1>
 <h2>World class treatment,</h2>
-<h1>below-market-rate prices.</h1>
+<h1>at Affordable prices.</h1>
 <p>Book same day appointments instantly.</p>
 <span>
     <a href='#Services'>

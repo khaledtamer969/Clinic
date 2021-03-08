@@ -74,31 +74,34 @@ class cases extends Component {
         return (
           <div>
                 <div className={Classes.Cases}>
-              <button  active onClick={() => this.hideComponent("showHideCROWNS")}>
-                Crowns
-              </button>
-              <button active onClick={() => this.hideComponent("showHideA")}>
-                AnteriorComposite
-              </button>
-              
-              <button active onClick={() => this.hideComponent("showHideEndo")}>
-                Endo
-              </button>
-              <button onClick={() => this.hideComponent("showHideImplants")}>
-                Implants
-              </button>
-              <button onClick={() => this.hideComponent("showHideOperative")}>
-            Operative
-              </button>
-              <button onClick={() => this.hideComponent("showHidePedo")}>
-                Pedo
-              </button>
-              <button onClick={() => this.hideComponent("showHideVeneers")}>
+                <button onClick={() => this.hideComponent("showHideVeneers")}>
                 Veneers
               </button>
               <button onClick={() => this.hideComponent("showHideWhitening")}>
                 Whitening
               </button>
+              <button active onClick={() => this.hideComponent("showHideA")}>
+                AnteriorComposite
+              </button>
+              <button  active onClick={() => this.hideComponent("showHideCROWNS")}>
+                Crowns
+              </button>
+              <button onClick={() => this.hideComponent("showHideOperative")}>
+            Operative
+              </button> 
+              <button onClick={() => this.hideComponent("showHideImplants")}>
+                Implants
+              </button> 
+              
+              <button active onClick={() => this.hideComponent("showHideEndo")}>
+                Endo
+              </button>
+           
+              <button onClick={() => this.hideComponent("showHidePedo")}>
+                Pedo
+              </button>
+             
+            
             </div>
             {showHideCROWNS && <Crowns/>}
            
