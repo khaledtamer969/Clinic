@@ -12,6 +12,28 @@
     box-sizing:border-box;
     z-index:90;
     }
+    .Toolbar button{
+        box-shadow: 15px;
+        width: 200px;
+        height: 50px;
+        display:inline-block;
+        padding: 0.3em  0.9em 0.em 0.9em;
+        margin:0.9em  0.9em 0.9em 0.9em;
+        border-radius:2em;
+        text-decoration:none;
+        font-family:'Roboto',sans-serif;
+        font-weight:100;
+        color:#FFFFFF;
+        background-color:green;
+        transition: all 0.2s;
+    }
+    .Toolbar button:hover,
+    .Toolbar button:active,
+    .Toolbar button.active{
+        color: rgb(25,218,157);
+        cursor: pointer;
+        text-align: center;
+    }
     .Toolbar .NavidationItems{
         margin-left: 100px;
     }
@@ -33,6 +55,11 @@
     }
     @media(max-width:499px){
         .Desktoponly{
+            display:none;
+        }
+    }
+    @media(min-width:499px){
+        .Sidebaronly{
             display:none;
         }
     }
