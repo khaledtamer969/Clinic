@@ -53,3 +53,77 @@
     font-size: 20px;
     color:rgb(70,186,124);
 }
+
+@media (max-width: 576px) { 
+    .Location{
+
+        margin-top: 20px;
+        display: flex;
+        margin-left: 5px;
+        text-align: left;
+        
+    }
+    .Location div {
+        margin-top:35px;
+    }
+
+    .Location  img {
+        
+        height:300px;
+        width:160px;
+        box-shadow: 5px 5px 25px #ccc;
+        padding: 0.5em  0.5em 0.5em 0.5em;
+        margin:0.9em  0.9em 0.9em 0.9em;
+        border-radius:2em;
+        box-sizing: border-box;
+        text-decoration:none;
+    }
+    .Location div1
+    {
+        width:40%;
+        margin-top: 10px;
+        margin-left:5px;
+    }
+    .Location div1 p
+    {
+        font-size: 10px;
+        font-weight: 500;
+        color:rgb(70,186,124);
+    }
+    .Location div1 p2
+    {
+        font-weight: 600;
+       font-size: 10px;
+    }
+    .Location div1 h2
+    {
+        font-weight: 800;
+        font-size: 15px;
+      
+    }
+    .Location div1 p1
+    {
+        font-weight: 600;
+        font-size: 10px;
+        text-align: left;
+        
+    }
+    .Location div1 span
+    {
+        font-weight: 600;
+        font-size: 10px;
+        color:rgb(70,186,124);
+    }
+ }
+
+
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) {  }
+
+
+@media (min-width: 1400px) {  }

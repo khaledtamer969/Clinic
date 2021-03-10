@@ -11,12 +11,13 @@ return(
 <span1>
 <img src={pic} alt="logo"/>
 </span1>
-<span2>
-<img src={pic1} alt="logo"/>
-</span2>
 <span3>
 <img src={pic2} alt="logo"/>
 </span3>
+<span2>
+<img src={pic1} alt="logo"/>
+</span2>
+
 </div>
 
 </section>

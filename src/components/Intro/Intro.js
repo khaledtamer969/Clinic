@@ -2,11 +2,15 @@ import React from 'react';
 import pic from './4b01c806-7dd0-43e5-878c-ecdb9705cff6.png';
 import classes from './Intro.module.css';
 import Arrow from './Untitled.jpg';
+import {MDBContainer} from 'mdbreact';
 import Navigationitem from '../Navigation/Navigationitems/Navigationitem/Navigationitem';
 const intro =()=>{
 
 return(
+
+    
 <section className={classes.Intro}>
+
 <div1>
 <h2>World class treatment,</h2>
 <h1>at Affordable prices.</h1>
@@ -23,6 +27,7 @@ return(
 </div>
 
 </section>
+
 );
 
 

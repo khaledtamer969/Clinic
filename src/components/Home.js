@@ -10,7 +10,7 @@ import Services from './Services/Service';
 import Vision from './Vision/Vision';
 import Quality from './QualityControl/QualityControl';
 
-
+import './_variables.scss';
 const Home =()=> {
 
   

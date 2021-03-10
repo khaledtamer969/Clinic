@@ -61,3 +61,82 @@ text-align: justify;
         font-size: 12px;
         }
     }
+
+    @media (max-width: 576px) {
+        .Vision{
+            border-radius: 10px;
+             font-family: 'Roboto';
+             border: 1.3px solid rgb(200,200,200);
+             border-top: 6px solid rgb(138,198,76);
+             margin-top: 15px;
+             margin-left: 550px;
+             margin-right: 15px;
+             height:50%;
+             width:30%;
+             padding-right: 10px;
+             padding-left: 10px;
+         }
+         .Vision :hover{
+             cursor: pointer;
+             background-color: rgb(138,198,76);;
+             color: #fff;
+             text-align: center;
+             padding: 30px 20px;
+             transition: all 0.6s;
+             box-shadow: 0px 0px 15px #cdcdcd;
+         }
+         
+         .Vision h1
+         {
+             text-align: center;  
+         }
+         .Vision p
+         {
+         padding-top: 30px;
+         text-align: justify;
+         }
+         
+         
+             @media(max-width:615px){
+                 .Vision{
+                     font-family: 'Roboto';
+                     border: 1.3px solid rgb(200,200,200);
+                     border-top: 6px solid rgb(138,198,76);
+                     margin-top: 10px;
+                     margin-left: 25%;
+                     margin-right: 10px;
+                     height:60%;
+                     width:50%;
+                     padding-right: 5px;
+                     padding-left: 5px;
+                 }
+                 
+                 
+                 .Vision h1
+                 {
+                     text-align: left;
+                     font-size: 20px;
+                     padding-right:25px;
+                   
+                 }
+                 .Vision p
+                 {
+                 padding-top: 10px;
+                 text-align: justify;
+                 font-size: 12px;
+                 }
+             }
+         
+      }
+
+
+    @media (min-width: 768px) {  }
+    
+    
+    @media (min-width: 992px) {  }
+    
+    
+    @media (min-width: 1200px) {  }
+    
+    
+    @media (min-width: 1400px) {  }

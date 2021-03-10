@@ -3,3 +3,23 @@
 width:100%;
 height: 600px;
 }
+
+@media (max-width: 576px) {
+    .Review img{
+        margin-top: 20px;
+    widows: 110%;
+    height: 60%;
+    }
+  }
+
+
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) {  }
+
+
+@media (min-width: 1400px) {  }
