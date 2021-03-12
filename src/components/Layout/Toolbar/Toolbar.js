@@ -11,7 +11,7 @@ const toolbar =(props)=>(
         <img src={Logo} alt="clinic's logo"/>
         
     </div>
-    <div className={classes.Sidebaronly} className={classes.button}>
+    <div className={classes.Sidebaronly} >
     <Link to="/Register"><button><span>Book Appointment </span></button></Link> 
     </div>
   
