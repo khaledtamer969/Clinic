@@ -20,7 +20,7 @@ class cases extends Component {
         showHideImplants: false,
         showHideOperative: false,
         showHidePedo: false,
-        showHideVeneers: false,
+        showHideVeneers: true,
         showHideWhitening: false
       };
       this.hideComponent = this.hideComponent.bind(this);

@@ -18,7 +18,7 @@
     height:210px;
     width:150px;
     box-shadow: 2px 2px 25px #ccc;
-    padding: 0.5em  0.5em 0.5em 0.5em;
+    padding: 0em  0em 0em 0em;
     margin:0.9em  0.9em 0.9em 0.9em;
     border-radius:2em;
     box-sizing: border-box;
@@ -72,7 +72,7 @@ margin:2px;
         height:700px;
         width:600px;
         box-shadow: 10px 10px 50px #ccc;
-        padding: 0.9em  0.9em 0.9em 0.9em;
+        padding: 0.5em  0.5em 0.5em 0.5em;
         margin:0.9em  0.9em 0.9em 0.9em;
         border-radius:2em;
         box-sizing: border-box;

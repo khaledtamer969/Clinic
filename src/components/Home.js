@@ -9,7 +9,7 @@ import Credits from './Team/Credits/Credits';
 import Services from './Services/Service';
 import Vision from './Vision/Vision';
 import Quality from './QualityControl/QualityControl';
-
+import classes from './Home.module.css';
 import './_variables.scss';
 const Home =()=> {
 
@@ -21,7 +21,7 @@ const Home =()=> {
       <section >
      
        
-      <div >
+      <div className={classes.Home}>
         <Layout/>
         <Intro/>
         <Location/>
