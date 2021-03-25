@@ -7,10 +7,11 @@ import classes from './Team.module.css';
 const team =()=>{
     return(
 <section id = "Team" className={classes.Team}>
+<p>MEET THE TEAM </p> 
  <div3>
- 
+
 <div >
-<p>MEET THE TEAM </p>
+
 <h2>Dr. Kareem Abdelfattah</h2>
 <p1>More than just a friendly face, Dr.Kareem is a 
     member of the Royal College of Surgeons,

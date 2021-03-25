@@ -1,10 +1,10 @@
 .Team{
     font-family: 'IBM PLex Sans','IBM PLex Mono';
-    margin-top: 20px;
+    background-color: rgb(235,248,255);
 }
 .Team div3
 {
-    background-color: rgb(235,248,255);
+   
   display:flex;
   text-align: justify;
 }
@@ -23,9 +23,11 @@
     margin-left: 200px;
     width:40%;
 }
-.Team div p{
+.Team  p{
     color: green;
-    margin:1px;
+    margin-left:150px;
+    font-size: 45px;
+    text-align: center;
  }
  .Team div h2{
      margin-top:5px;
@@ -56,11 +58,12 @@ margin-left: 100px;
     
 @media (max-width: 576px) {
     .Team{
+        background-color: rgb(235,248,255);
         font-family: 'IBM PLex Sans','IBM PLex Mono';
     }
+    
     .Team div3
     {
-        background-color: rgb(235,248,255);
       display:flex;
       text-align: left;
     }
@@ -72,18 +75,18 @@ margin-left: 100px;
         border-radius: 1rem;
     }
     .Team div{
-       margin-top: 30px;
+       margin-top: 3px;
         margin-left: 5px;
         width:45%;
     }
-    .Team div p{
+    .Team  p{
         color: green;
-        
-        font-size: 15px;
+        text-align: center;
+        font-size: 30px;
     font-weight: 600;
      }
      .Team div h2{
-         margin-top:5px;
+         
          margin-bottom: 5px;
     font-size: 15px;
     font-weight: 600;
@@ -95,20 +98,11 @@ margin-left: 100px;
     font-weight: 600;
     text-align: left;
     }
-    .Team div1 img{
-    height: 100px;
-    width:100px;
-    margin-top: 150px;
-    margin-left: 5px;
-    }
     .Team div2 img{
         height: 180px;
         width:130px;
         margin-left: 30px;
-        margin-top: 70px;
-        
-    
-        }
+        margin-top: 10px;   }
           }
 
 
