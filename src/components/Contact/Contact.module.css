@@ -1,6 +1,6 @@
 .Contact  
 {
-
+    font-family: 'IBM PLex Sans','IBM PLex Mono';
     height:400px ;
 }
 .Contact div
@@ -32,15 +32,32 @@
     margin-top: 150px;
     color:green;
     font-size: 20px;
-    font-weight: 800 ;
-
-   
+    font-weight: 800 ; 
 }
+.a img
+{
+    width:40px;
+    height:40px;
+    margin:1px;
+ }
+.Contact p1{
+    
+    font-size:20px ;
+    margin-right:470px;
+}
+.Contact div1
+    {
+        margin-left: 350px;
+        width:100%;
+        display: flex;
+    }
+
 
 
 @media (max-width: 576px) { 
     .Contact  
     {
+        font-family: 'IBM PLex Sans','IBM PLex Mono';
         height:200px ;
     }
     .Contact div
@@ -55,6 +72,25 @@
          border-bottom:   solid;
         border-bottom-color:   gray;
         
+    }
+    .Contact div1
+    {
+        margin-left: 50px;
+        display: flex;
+    }
+
+    .a img 
+    {
+        
+        width:40px;
+        height:40px;
+        margin:1px;
+     }
+    .Contact p1
+    {    
+        font-size:15px ;
+        margin-right:8px;
+       
     }
     .Contact h1
     {

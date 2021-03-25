@@ -1,4 +1,6 @@
 .Toolbar{
+    
+    font-family: 'IBM PLex Sans','IBM PLex Mono';
     height:70px;
     width:100%;
     position: relative;
@@ -13,6 +15,7 @@
     z-index:90;
     }
     .Toolbar button{
+        font-family: 'IBM PLex Sans','IBM PLex Mono';
         box-shadow: 15px;
         width: 200px;
         height: 50px;
@@ -60,6 +63,7 @@
     }
     @media(min-width:499px){
         .Sidebaronly{
+            font-family: 'IBM PLex Sans','IBM PLex Mono';
             display:none;
         }
     }

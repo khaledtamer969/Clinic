@@ -18,7 +18,7 @@ return(
 <span>
     <a href='#Services'>
 <p1>Learn more </p1>
-<img src={Arrow} alt="arrow"/></a>
+</a>
 </span>
 
 </div1>

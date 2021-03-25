@@ -2,11 +2,26 @@
     margin-top: 20px;
 width:100%;
 height: 600px;
+font-family: 'IBM PLex Sans','IBM PLex Mono';
 }
 
+.Review h2{
+    margin-top:5px;
+    font-size: 45px;
+    color: green;
+    text-align: center;
+    font-family: 'IBM PLex Sans','IBM PLex Mono';
+}
 @media (max-width: 576px) {
+    .Review h2{
+        margin-top:5px;
+        color: green;
+        text-align: center;
+        font-family: 'IBM PLex Sans','IBM PLex Mono';
+
+    }
     .Review img{
-        margin-top: 20px;
+        margin-top: 0px;
     width: 100%;
     height: 60%;
     }

@@ -2,11 +2,10 @@
     display:flex;
    
 }
-.Cases button
+.button
 {
     background-color: white;
     color:black;
-    border: 0ch;
     
     margin :30px;
     border-spacing: 2px;
@@ -15,29 +14,26 @@
  
 }
 
-.Cases .button :hover,
-.Cases .button:active{
-border-bottom-style:  solid;
+.button :hover,
+.button:active{
+
     border-bottom-color: rgb(25,218,157);
     
     text-align: center;
 }
 @media (max-width: 576px) {
-    .Cases button
+.button
 {
-    background-color: white;
+border-color: white;
     color:black;
-    margin :1px;
-    border-spacing: 2px;
     font-size: 8px;
     font-weight: 800;
  
 }
 
-.Cases .button :hover,
-.Cases .button:active{
-border-bottom-style:  solid;
-    border-bottom-color: rgb(25,218,157);
+.button :hover,
+.button:active{
+    color: rgb(25,218,157);
     text-align: center;
 }
   }

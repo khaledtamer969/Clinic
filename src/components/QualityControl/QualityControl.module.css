@@ -1,7 +1,12 @@
+.Quality{
+
+    font-family: 'IBM PLex Sans','IBM PLex Mono';
+}
 .Quality div{
     padding: 20px 0px 0px 0px;
     line-height: 1.3;
     padding-left: 250px;
+    font-family: 'IBM PLex Sans','IBM PLex Mono';
 
 }
 .Quality img 
@@ -125,9 +130,13 @@ font-size: 60px;
 margin: 1px;
 }
 @media(max-width:576px){
+    .Quality{
+        font-family: 'IBM PLex Sans','IBM PLex Mono'; 
+    }
     .Quality div{
         margin-top: 0px;
         padding-left:20px;
+        font-family: 'IBM PLex Sans','IBM PLex Mono';
     }
 
     .Quality div h1{
@@ -155,33 +164,31 @@ margin: 1px;
         text-transform: uppercase;
         letter-spacing: 1px;
     }
-    .Quality div4
+    .Quality  div4
     {
+        font-family: 'IBM PLex Sans','IBM PLex Mono';
        display: flex;        
-        padding: 0px 0px 0px 0px;
-        margin-bottom: px;
-        line-height: 1;
-    
+       padding: 0px 0px 0px 0px;
     }
     .Quality div1
     {
-    
-        margin-top: px;
+        font-family: 'IBM PLex Sans','IBM PLex Mono';
+        margin-top: 3px;
         margin-left: 0px;
         margin-right: 0px;
     }
     .Quality div2
     {
-        margin-top: 50px;
+        font-family: 'IBM PLex Sans','IBM PLex Mono';
+        margin-top: 0px;
         margin-left: 0px;
         padding-right: 0px;
     }
     .Quality div3
-    { 
-        padding-top: 40px;
+    {    padding-top: 0px;
         margin-top: 50px;
         margin-left: 0px;
-        padding-right: 0px;
+        padding-right: 0px; 
     }
     .Quality img
     {
@@ -190,7 +197,6 @@ margin: 1px;
     padding:  4px;
     box-shadow: 0px 0px 10px #cdcdcd;
     }
-    
     .Quality div1 p1
     {
         font-weight: 600;
@@ -198,7 +204,7 @@ margin: 1px;
         display:block;
         text-transform: uppercase;
         letter-spacing: 1px;
-    padding-bottom: 5px;
+        padding-bottom: 5px;
     }
     .Quality div2 p2
     {
@@ -206,26 +212,20 @@ margin: 1px;
         font-size: 10px;
         text-transform: uppercase;
         letter-spacing: 1px;
-    padding-bottom: 12px;
+        padding-bottom: 12px;
     }
-    
     .Quality div3 p3
-    {
-        font-weight: 700;
+    {font-weight: 700;
         font-size: 10px;
         text-transform: uppercase;
         letter-spacing: 1px;
-
-    padding-bottom: 10px;
-    }
+        padding-bottom: 10px;}
     .Quality div3 img{
         box-shadow: 0px 0px 10px #cdcdcd;
     }
-    
-    
     .Quality span
     {
-    font-size: 0px;
+    font-size: 45px;
     margin: 1px;
     }
 }

@@ -73,7 +73,7 @@ class cases extends Component {
         const { showHideCROWNS, showHideA,showHideEndo,showHideImplants,showHideOperative,showHidePedo,showHideVeneers,showHideWhitening } = this.state;
         return (
           <div>
-                <div className={Classes.Cases}>
+                <div className={Classes.button}>
                 <button onClick={() => this.hideComponent("showHideVeneers")}>
                 Veneers
               </button>

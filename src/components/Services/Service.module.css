@@ -3,11 +3,15 @@
 .Service  h1{
     color: green;
     text-align: center;
+    font-family: 'IBM PLex Sans','IBM PLex Mono';
 }
 .Service button
 {
+    font-family: 'IBM PLex Sans','IBM PLex Mono';
+    margin:1px;
+    border-color: white;
     background-color: white;
-    color:rgb(25,218,157);
+
 }
 .Service ul{
     display: flex;

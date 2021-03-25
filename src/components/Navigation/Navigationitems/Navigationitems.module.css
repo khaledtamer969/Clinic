@@ -1,5 +1,5 @@
 .Navigationitems{
-
+    font-family: 'IBM PLex Sans','IBM PLex Mono';
     margin:0;
     margin-left:200px;
     list-style: none;
@@ -37,6 +37,7 @@
 @media(min-width:500px)
 {
     .Navigationitems{
+        font-family: 'IBM PLex Sans','IBM PLex Mono';
         flex-flow: row;
     }
 }
